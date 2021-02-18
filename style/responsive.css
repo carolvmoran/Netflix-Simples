@@ -1,15 +1,26 @@
 @media screen and (max-width:700px) {
-    .container {
+    .filmePrincipal {
+        height: 600px;
+    }
+    .filmePrincipal .container {
+        margin: 0 40px;
+    }
+    .filmePrincipal .containerMenu {
         display: flex;
         flex-direction: column;
+        height: 80px;
     }
-    .botao {
+    .filmePrincipal .logoFilme {
+        width: 80%;
+        margin-left: 0;
+    }
+    .filmePrincipal .botao {
         margin-top: 5px;
         width: 220px;
     }
 }
 @media screen and (min-width:1000px) {
-    .descricao {
+    .filmePrincipal .descricao {
         width: 50%;
     }
 }

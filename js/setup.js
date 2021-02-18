@@ -14,3 +14,9 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+function assistir(){
+    window.open("https://www.youtube.com/watch?v=kasvV-XyzqU")
+}
+function informacoes(){
+    window.open("https://www.netflix.com/br/title/70178217")
+}

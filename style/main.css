@@ -16,29 +16,32 @@ body {
     color: white;
 }
 /* Menu  */
-.container {
+.filmePrincipal .containerMenu {
+    width: 97%;
     margin: 0 20px;
-}
-header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header .logo {
+.filmePrincipal .containerMenu .logo {
+    background-image: url(../img/netflix-logo-5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 40px;
     margin-left: 5px;
-    color: var(--vermelho);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
 }
 
-header nav a{
+.filmePrincipal .containerMenu nav a{
     text-decoration: none;
-    color: #AAA;
+    color: #fff;
     margin-right: 10px;
+    text-transform: uppercase;
 }
 
-header nav a:hover {
+.filmePrincipal .containerMenu nav a:hover {
     color: #fff;
 }
 
@@ -46,7 +49,7 @@ header nav a:hover {
 
 .filmePrincipal {
     font-size: 16px;
-    height: 400px;
+    height: 550px;
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url(../img/capa-house.jpg);
     background-size: cover;
     display: flex;
@@ -56,17 +59,32 @@ header nav a:hover {
 }
 .filmePrincipal .container {
     width: 70%;
+    margin: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.filmePrincipal .logoFilme {
+    margin-top: 15%;
+    margin-left: -10px;
+    background-image: url(../img/House_of_cards_logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    filter: brightness(2) drop-shadow(2px 4px 6px black);
+    width: 50%;
+    height: 60px;
+}
+.filmePrincipal .titulo {
+    margin-top: 8%;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .filmePrincipal .descricao {
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.filmePrincipal .titulo {
-    margin-top: 15%;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 .botao {
     background: rgba(0, 0, 0, .5);
